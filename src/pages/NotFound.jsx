@@ -18,7 +18,7 @@ const NotFound = () => {
             We’re sorry, the page you have looked for does not exist in our website! Maybe go to our home page or try to use a search?
           </p>
           <Link
-            to="/"
+            to="/home"
             className="inline-block bg-blue-600 text-white py-3 px-5 rounded-full hover:bg-blue-700 transition"
           >
             Go Back To Home

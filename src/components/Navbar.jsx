@@ -16,7 +16,7 @@ const Navbar = () => {
   const [isServiceOpenMobile, setIsServiceOpenMobile] = useState(false);
 
   const navLinks = [
-    { name: "Home", path: "/" },
+    { name: "Home", path: "/home" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
     { name: "Products", path: "/trending" },
@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link
-          to="/"
+          to="/home"
           className="text-2xl md:text-3xl font-extrabold text-gray-800 hover:text-blue-600 transition-colors"
         >
           V-NET
